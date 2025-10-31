@@ -1,4 +1,4 @@
-package payment_services
+package payment_service
 
 import "fmt"
 
