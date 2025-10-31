@@ -1,8 +1,10 @@
 package payment_service
 
-import "fmt"
+func PaymentMethodList() []string {
+	methods := []string{"Credit Card", "PayPal", "Bank Transfer", "Cryptocurrency"}
+	return methods
+}
 
-func PaymentMethods() {
-	// Implementation of payment methods
-	fmt.Println("Available payment methods: Credit Card, PayPal, Bank Transfer")
+func PaymentMethodDetail(name string) string {
+	return name + " is a secure and reliable payment method."
 }
